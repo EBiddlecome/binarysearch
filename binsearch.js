@@ -37,10 +37,11 @@ var binarySearch = function (array, target) {
 
             	}
         	}
-    	}
-
+    }
     //return -1 if the target index isnt present in the array, because -1 can't be an array index value
     return -1;
 };
+
+// test case:
 // var index = binarySearch([1, 2, 3, 4, 5], 4);
 // console.log(index);
